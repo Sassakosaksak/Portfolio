@@ -32,9 +32,9 @@
 
       <section id="works" class="works section-shell" aria-labelledby="works-title">
         <div class="section-heading">
-          <p class="eyebrow">WORKS</p>
-          <h2 id="works-title">制作物一覧</h2>
-          <p>ゲームと、ゲームに関連した個人制作・学習プロジェクトです。</p>
+          <p class="eyebrow">GAME PROJECTS</p>
+          <h2 id="works-title">ゲーム</h2>
+          <p>個人で制作したゲームです。</p>
         </div>
 
         <article class="work-card work-card-shiro">
@@ -52,7 +52,7 @@
         </article>
 
         <article class="work-card work-card-treasure">
-          <div class="work-art"><img src="assets/treasure-seeker.png" alt="Treasure Seekerのタイトル画面" /></div>
+          <div class="work-art"><img src="assets/treasure-seeker-combat.gif" alt="Treasure Seekerで敵と戦闘している場面" /></div>
           <div class="work-body">
             <p class="work-number">02 / PERSONAL PROJECT</p>
             <h3>TREASURE SEEKER</h3>
@@ -66,26 +66,33 @@
         </article>
       </section>
 
-      <article class="work-card work-card-api section-shell">
-        <div class="api-art" aria-hidden="true">
-          <div class="terminal-bar"><span></span><span></span><span></span></div>
-          <p><b>$</b> game-server-api-lab</p>
-          <p class="terminal-muted">ASP.NET Core API</p>
-          <p><i>✓</i> PostgreSQL connected</p>
-          <p><i>✓</i> Redis cache ready</p>
-          <p><i>✓</i> WebSocket online</p>
-          <p class="terminal-cursor">_</p>
+      <section class="related section-shell" aria-labelledby="related-title">
+        <div class="section-heading">
+          <p class="eyebrow">RELATED LAB</p>
+          <h2 id="related-title">関連制作物</h2>
+          <p>ゲームに関連して作った学習プロジェクトです。</p>
         </div>
-        <div class="work-body">
-          <p class="work-number">03 / BACKEND LAB</p>
-          <h3>GAME SERVER API LAB</h3>
-          <p class="work-lead">ゲームで使うプレイヤー・認証・ランキング・購入処理を題材にした、サーバーAPIの学習プロジェクト。</p>
-          <ul class="tags" aria-label="使用技術"><li>ASP.NET Core</li><li>PostgreSQL</li><li>Redis</li><li>Docker Compose</li><li>WebSocket</li></ul>
-          <div class="work-links">
-            <a class="button button-primary" href="https://github.com/Sassakosaksak/game-server-api-lab" target="_blank" rel="noreferrer">SOURCE CODE ↗</a>
+        <article class="work-card work-card-api">
+          <div class="api-art" aria-hidden="true">
+            <div class="terminal-bar"><span></span><span></span><span></span></div>
+            <p><b>$</b> game-server-api-lab</p>
+            <p class="terminal-muted">ASP.NET Core API</p>
+            <p><i>✓</i> PostgreSQL connected</p>
+            <p><i>✓</i> Redis cache ready</p>
+            <p><i>✓</i> WebSocket online</p>
+            <p class="terminal-cursor">_</p>
           </div>
-        </div>
-      </article>
+          <div class="work-body">
+            <p class="work-number">03 / BACKEND LAB</p>
+            <h3>GAME SERVER API LAB</h3>
+            <p class="work-lead">ゲームで使うプレイヤー・認証・ランキング・購入処理を題材にした、サーバーAPIの学習プロジェクト。</p>
+            <ul class="tags" aria-label="使用技術"><li>ASP.NET Core</li><li>PostgreSQL</li><li>Redis</li><li>Docker Compose</li><li>WebSocket</li></ul>
+            <div class="work-links">
+              <a class="button button-primary" href="https://github.com/Sassakosaksak/game-server-api-lab" target="_blank" rel="noreferrer">SOURCE CODE ↗</a>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
 
     <footer><a href="#top">BACK TO TOP ↑</a></footer>
